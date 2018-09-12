@@ -19,6 +19,12 @@ public class L1 {
         String identitas="Christo Yosia Nazareth/09/XRPL5";
         tampilJudul(identitas); 
     }
-    
+    private static int tampilInput(){
+        Scanner scanner = new Scanner (System.in);
+        System.out.print("Bilangan ke-1");
+        int n = scanner.nextInt();
+        return n;
+    }
+int n=tampilInput();
 
 }
